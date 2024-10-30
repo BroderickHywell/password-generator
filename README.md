@@ -10,11 +10,13 @@ a random password for you. It will also copy it to your clipboard and give you a
 ## Link to application
 [PassGen](https://brodericks-password-generator.netlify.app/)
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Contribute](#contribute)
+- [Connect](#connect)
 
 ## Usage
 
@@ -46,7 +48,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## How to Contribute
+## Contribute
 If you have anything you would like to add to this application or another of mine, or if you just want to collaborate with me, connect with me on my [Linkedin](https://www.linkedin.com/in/broderickhywell/) and 
 send me a message or email me at zerothesu@gmail.com!
 
