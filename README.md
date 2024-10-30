@@ -18,7 +18,7 @@ a random password for you. It will also copy it to your clipboard and give you a
 - [Connect](#connect)
 
 ## Link
-[PassGen](https://brodericks-password-generator.netlify.app/)
+[Password Generator](https://brodericks-password-generator.netlify.app/)
 
 ## Usage
 
