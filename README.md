@@ -18,7 +18,7 @@ a random password for you. It will also copy it to your clipboard and give you a
 
 ## Usage
 
-Simply go to the wesite, select your parameters you wish to include in your password, then type in the length below the parameters, then hit the create password button.
+Simply go to the [Website](https://brodericks-password-generator.netlify.app/), select your parameters you wish to include in your password, then type in the length below the parameters, then hit the create password button.
 
 ## Credits
 [PasswordMonster](https://www.passwordmonster.com/) - For testing password strength.
