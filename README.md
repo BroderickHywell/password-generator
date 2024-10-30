@@ -1,4 +1,7 @@
 # PassGen
+![badmath](https://img.shields.io/badge/Javascript-41.6_percent-yellow)
+![badmath](https://img.shields.io/badge/CSS-29.5_percent-blue)
+![badmath](https://img.shields.io/badge/HTML-28.9_percent-orange)
 
 ## Description
 Creating a password can be a little annoying sometimes right? Why not simplify the process with this app, all you have to do is enter a length, select the parameters you want your password to include, then this app will generate
@@ -42,11 +45,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Badges
-![badmath](https://img.shields.io/badge/Javascript-41.6_percent-yellow)
-![badmath](https://img.shields.io/badge/CSS-29.5_percent-blue)
-![badmath](https://img.shields.io/badge/HTML-28.9_percent-orange)
 
 ## How to Contribute
 If you have anything you would like to add to this application or another of mine, or if you just want to collaborate with me, connect with me on my [Linkedin](https://www.linkedin.com/in/broderickhywell/) and 
