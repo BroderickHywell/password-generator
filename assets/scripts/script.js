@@ -47,7 +47,7 @@ function createPassword(){
             passwordText.style.fontSize = "15px"
             passwordText.innerHTML = newPassword
         }else{
-            passwordText.style.fontSize = "40px"
+            passwordText.style.fontSize = "20px"
             passwordText.innerHTML = newPassword
         }
         statusText.innerHTML = 'Password made and copied to clipboard!'
