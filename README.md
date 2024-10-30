@@ -2,6 +2,7 @@
 ![badmath](https://img.shields.io/badge/Javascript-40.9_percent-yellow)
 ![badmath](https://img.shields.io/badge/CSS-30.6_percent-blue)
 ![badmath](https://img.shields.io/badge/HTML-28.5_percent-orange)
+![badmath](https://img.shields.io/badge/Drank_Coffee_During_Production-Yes-brown)
 
 ## Description
 Creating a password can be a little annoying sometimes right? Why not simplify the process with this app, all you have to do is enter a length, select the parameters you want your password to include, then this app will generate
@@ -16,7 +17,7 @@ a random password for you. It will also copy it to your clipboard and give you a
 - [Contribute](#contribute)
 - [Connect](#connect)
 
-## Link to application
+## Link
 [PassGen](https://brodericks-password-generator.netlify.app/)
 
 ## Usage
@@ -53,7 +54,7 @@ SOFTWARE.
 If you have anything you would like to add to this application or another of mine, or if you just want to collaborate with me, connect with me on my [Linkedin](https://www.linkedin.com/in/broderickhywell/) and 
 send me a message or email me at zerothesu@gmail.com!
 
-## Connect with me
+## Connect
 [LinkedIn](https://www.linkedin.com/in/broderickhywell/)  
 [Github](https://github.com/BroderickHywell)  
 Email: zerothesu@gmail.com
