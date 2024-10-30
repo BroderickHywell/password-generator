@@ -1,7 +1,7 @@
 # PassGen
-![badmath](https://img.shields.io/badge/Javascript-41.6_percent-yellow)
-![badmath](https://img.shields.io/badge/CSS-29.5_percent-blue)
-![badmath](https://img.shields.io/badge/HTML-28.9_percent-orange)
+![badmath](https://img.shields.io/badge/Javascript-40.9_percent-yellow)
+![badmath](https://img.shields.io/badge/CSS-30.6_percent-blue)
+![badmath](https://img.shields.io/badge/HTML-28.5_percent-orange)
 
 ## Description
 Creating a password can be a little annoying sometimes right? Why not simplify the process with this app, all you have to do is enter a length, select the parameters you want your password to include, then this app will generate
