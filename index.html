@@ -9,38 +9,33 @@
 </head>
 <body>
     <!-- main password creation secion -->
-    <section id="password-creator">
-        <form id="password-form">
+    <section class="password-creator">
+        <form id="password-form" >
             <h1>Password Settings</h1>
             <div class="container">
                 <input type="checkbox" id="lowercase-checkbox" class="checkbox">
                 <label for="lowercase-checkbox">Lowercase Values</label>
-                <br>
             </div>
 
             <div class="container">
                 <input type="checkbox" id="uppercase-checkbox" class="checkbox">
                 <label for="uppercase-checkbox">Uppercase Values</label>
-                <br>
             </div>
 
             <div class="container">
                 <input type="checkbox" id="special-char-checkbox" class="checkbox">
                 <label for="special-char-checkbox">Special Characters</label>
-                <br>
             </div>
 
             <div class="container">
                 <input type="checkbox" id="num-val-checkbox" class="checkbox">
                 <label for="num-val-checkbox">Numerical Values</label>
-                <br>
             </div>
 
             <div class="container">
                 <span>
                     <input type="number" id="length-input" min="8" max="128" placeholder="enter length here - 8min 128max">
                 </span>
-                <br>
             </div>
 
             <input type="submit" value="Create Password" id="submit-form">
