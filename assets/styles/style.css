@@ -12,11 +12,11 @@ ANIMATIONS          [LINE 134]
 * {
     color: #da4dfa;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
 }
 
 body {
     background-color: rgb(28, 0, 0);
-    min-width: 700px;
 }
 
 input {
@@ -88,6 +88,10 @@ footer a:hover {
     border-radius: 10px;
     font-size: 20px;
     border: 1px solid #da4dfa;
+}
+#submit-form:hover {
+    cursor: pointer;
+    background-color: #565656;
 }
 
 .password-input {
