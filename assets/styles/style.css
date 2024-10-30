@@ -16,7 +16,7 @@ ANIMATIONS          [LINE 134]
 }
 
 body {
-    background-color: rgb(28, 0, 0);
+    background-color: rgb(33, 33, 33);
 }
 
 input {
@@ -63,7 +63,6 @@ footer a:hover {
 .password-creator {
     border-left: 5px solid;
     border-right: 5px solid;
-    width: 100%;
 }
 
 #password-form {
