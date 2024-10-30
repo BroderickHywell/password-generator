@@ -15,6 +15,11 @@ ANIMATIONS          [LINE 134]
     overflow: hidden;
 }
 
+::selection {
+    background: #da4dfa;
+    color: black;
+}
+
 body {
     background-color: rgb(33, 33, 33);
 }
@@ -80,6 +85,10 @@ footer a:hover {
     margin-bottom: 10px;
     font-size: 30px;
 }
+#length-input:focus {
+    outline: none !important;
+    border: 1px solid grey
+}
 
 #submit-form {
     width: 200px;
@@ -91,10 +100,6 @@ footer a:hover {
 #submit-form:hover {
     cursor: pointer;
     background-color: #565656;
-}
-
-.password-input {
-    border: 1px solid #da4dfa;
 }
 
 .checkbox {
