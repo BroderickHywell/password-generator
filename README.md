@@ -1,4 +1,4 @@
-# PassGen
+# Password Generator
 ![badmath](https://img.shields.io/badge/Javascript-40.9_percent-yellow)
 ![badmath](https://img.shields.io/badge/CSS-30.6_percent-blue)
 ![badmath](https://img.shields.io/badge/HTML-28.5_percent-orange)
