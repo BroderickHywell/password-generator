@@ -5,7 +5,7 @@
 
 ## Description
 Creating a password can be a little annoying sometimes right? Why not simplify the process with this app, all you have to do is enter a length, select the parameters you want your password to include, then this app will generate
-a random password for you. It will also copy it to your clipboard and give you a link to passwordmonster to test out the strength of the password if you so please. Happy coding!
+a random password for you. It will also copy it to your clipboard and give you a link to [Password Monster](https://www.passwordmonster.com/) to test out the strength of the password if you so please. Happy coding!
 
 ## Link to application
 [PassGen](https://brodericks-password-generator.netlify.app/)
