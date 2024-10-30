@@ -53,6 +53,6 @@ If you have anything you would like to add to this application or another of min
 send me a message or email me at zerothesu@gmail.com!
 
 ## Connect with me
-[LinkedIn](https://www.linkedin.com/in/broderickhywell/)
-[Github](https://github.com/BroderickHywell)
+[LinkedIn](https://www.linkedin.com/in/broderickhywell/)  
+[Github](https://github.com/BroderickHywell)  
 Email: zerothesu@gmail.com
