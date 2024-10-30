@@ -1,7 +1,7 @@
 // PREVENTS THE PAGE FROM RELOADING WHEN YOU SUBMIT THE FORM
-let form = document.getElementById("password-form");
-function handleForm(event) { event.preventDefault(); } 
-form.addEventListener('submit', handleForm);
+let form = document.getElementById("password-form")
+function handleForm(event) { event.preventDefault() } 
+form.addEventListener('submit', handleForm)
 
 // CHARACTER ARRAYS
 let specialCharArr = ["!", "\"", "#", "$", "%", "&", "\'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "=", ">", "?", "@", "[", "]", "\\", "^", "_", "`", "{", "}", "~"]
