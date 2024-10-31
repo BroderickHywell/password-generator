@@ -1,7 +1,7 @@
 # Password Generator
-![badmath](https://img.shields.io/badge/Javascript-40.9_percent-yellow)
-![badmath](https://img.shields.io/badge/CSS-30.6_percent-blue)
-![badmath](https://img.shields.io/badge/HTML-28.5_percent-orange)
+![badmath](https://img.shields.io/badge/Javascript-39.6_percent-yellow)
+![badmath](https://img.shields.io/badge/CSS-31.3_percent-blue)
+![badmath](https://img.shields.io/badge/HTML-29.1_percent-orange)
 ![badmath](https://img.shields.io/badge/Drank_Coffee_During_Production-Yes-brown)
 
 ## Description
