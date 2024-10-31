@@ -7,10 +7,11 @@ form.addEventListener('submit', handleForm)
 let specialCharArr = ["!", "$", "&", "?"]
 let lowerCharArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 let upperCharArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 // MAIN FUNCTION
 function createPassword(){
+    // variables that tell the code if the boxes on the application are checked and other selectors for changing the page
     let lowerCheckbox = document.getElementById("lowercase-checkbox").checked
     let upperCheckbox = document.getElementById("uppercase-checkbox").checked
     let specialCheckbox = document.getElementById("special-char-checkbox").checked
@@ -19,8 +20,10 @@ function createPassword(){
     let statusText = document.getElementById("status-text")
     let passwordText = document.getElementById("password-text")
     let strTestLink = document.getElementById("str-test-link")
+
+    // new password is blank to be set
     let newPassword = ''
-    let charSelectArr = []
+    let charSelectArr = [] // charSelectArr is for adding the elements that the user selected with the checkboxes to add to a password
     // checks if length is valid and checkboxes are selected. else displays error message if length was not in correct range
     if(parseInt(lengthInput) >= 8 && parseInt(lengthInput) <= 128){
         // makes sure at least one checkbox is selected
@@ -41,6 +44,7 @@ function createPassword(){
             statusText.style.display = 'flex'
             return 
         }
+
         // resizes password element style if length was 40 or more characters long
         if(newPassword.length >= 40){
             passwordText.style.fontSize = "15px"
@@ -50,7 +54,7 @@ function createPassword(){
             passwordText.innerHTML = newPassword
         }
         statusText.innerHTML = 'Password made and copied to clipboard!'
-        statusText.style.display = 'flex'
+        statusText.style.display = 'flex' // these two elements have a display set to none that changes here so they are visible when the new password is create
         strTestLink.style.display = 'flex'
         // copies password to clipboard
         navigator.clipboard.writeText(newPassword)
