@@ -210,3 +210,24 @@ input[type='checkbox'] {
         flex-direction: row;
     }
 }
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #4dfa87;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #565656;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a3ffc2;
+  }
