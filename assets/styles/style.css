@@ -1,18 +1,17 @@
-/* 
-----------INDEX----------
-BASIC TAGS          [LINE 11]
-FOOTER              [LINE 41]
-MAIN PAGE CONTENT   [LINE 62]
-BREAKPOINTS         [LINE 127]
-ANIMATIONS          [LINE 134]
-*/
-
+/* NAVBAR */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #da4dfa;
+}
 
 /* BASIC TAGS */
 * {
     color: #da4dfa;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    overflow: hidden;
 }
 
 ::selection {
@@ -42,33 +41,63 @@ span {
     font-size: 30px;
 }
 
-
-/* FOOTER */
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
+/* DROPDOWN CONTACT LINKS */
+ul {
+    list-style-type: none;
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
-    background-color: #da4dfa;
-}
-
-footer a {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
     color: black;
-    font-size: 30px;
-}
-
-footer a:hover {
-    color: white;
-}
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(223, 143, 255);
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(239, 199, 255);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: rgb(223, 143, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #9a27c1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 /* MAIN PAGE CONTENT */
 .password-creator {
     border-left: 5px solid;
     border-right: 5px solid;
-    margin-top: -20px;
+    margin-top: 10vw;
 }
 
 #password-form {
@@ -81,6 +110,7 @@ footer a:hover {
 
 #length-input {
     border: 1px solid #da4dfa;
+    border-radius: 5px;
     height: 30px;
     width: 450px;
     margin-bottom: 10px;
@@ -165,6 +195,18 @@ input[type='checkbox'] {
         font-size: 12px;
     }
     footer{
-        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer a{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    footer span {
+        font-size: 20px;
+    }
+    .footer-links {
+        flex-direction: row;
     }
 }
